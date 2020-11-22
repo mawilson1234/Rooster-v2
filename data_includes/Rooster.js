@@ -7,7 +7,6 @@
 // Main shuffleSequence definition
 var shuffleSequence = seq(
         'consent',
-        'background',
         'setcounter',
         'intro',
         'practice',
@@ -40,8 +39,8 @@ function modifyRunningOrder(ro)
 {
     for (var i = 0; i < ro.length; ++i)
     {
-        if ((i-12) % 30 == 1
-            && i > 13
+        if ((i-11) % 30 == 1
+            && i > 12
             && i < 103)
         {
             ro[i].push(new DynamicElement(
@@ -62,8 +61,8 @@ function modifyRunningOrder(ro)
 }
 
 // Completion message links to the debriefing page
-var completionMessage = "Thank you for your participation! To access a debriefing form with a brief explanation of the purpose of this experiment, go to http://blogs.umass.edu/michaelwilso/files/2020/10/debrief-rooster.pdf."; 
-var completionErrorMessage = "There was an error in sending your data to the server. You will still receive credit for completing the experiment. To access a debriefing form with a brief explanation of the purpose of this experiment, go to http://blogs.umass.edu/michaelwilso/files/2020/10/debrief-rooster.pdf."; 
+var completionMessage = "Thank you for your participation! Your completion code is . To complete this experiment, go to ."; 
+var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is . Please go to: ."; 
 
 
 // Items array.
@@ -72,7 +71,6 @@ var items = [
     
     // Intro and outro pages
     ["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
-    ["background", "Form", {consentRequired: false, html: {include: "background.html"}}],
     
     ['intro', "Form", {consentRequired: false, html: {include: "intro1.html"}}],
     ['intro', "Form", {consentRequired: false, html: {include: "intro2.html"}}],
