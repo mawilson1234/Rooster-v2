@@ -61,8 +61,8 @@ function modifyRunningOrder(ro)
 }
 
 // Completion message links to the debriefing page
-var completionMessage = "Thank you for your participation! Your completion code is . To complete this experiment, go to ."; 
-var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is . Please go to: ."; 
+var completionMessage = "Thank you for your participation! Your completion code is 8B86F64B. To complete this experiment, go to https://app.prolific.co/submissions/complete?cc=8B86F64B."; 
+var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is . Please go to https://app.prolific.co/submissions/complete?cc=8B86F64B."; 
 
 
 // Items array.
