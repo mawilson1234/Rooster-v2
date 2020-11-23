@@ -57,7 +57,7 @@ function modifyRunningOrder(ro)
             true));
         }
     }
-    return ro;
+    return ro; 
 }
 
 // Completion message links to the debriefing page
@@ -111,7 +111,7 @@ var items = [
 
     ['practice', Message, {consentRequired: false,
                        html: ["div",
-                               ["p", "Alright, that's it for practice! If you got any wrong, that's OK. Just be sure to read naturally but carefully, making sure you understand each word as you go. Press any key when you're ready to begin."]
+                               ["p", "All right, that's it for practice! If you got any wrong, that's OK. Just be sure to read naturally but carefully, making sure you understand each word as you go. Press any key when you're ready to begin."]
                             ]}],
 
     ['introSep', "Separator", {transfer: 4000, normalMessage: "Hands in place! Your first sentence of this block will start soon."}],
