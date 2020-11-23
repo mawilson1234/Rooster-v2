@@ -110,8 +110,8 @@ var items = [
                  Separator, { transfer: 1000, normalMessage: "+", errorMessage: "Wrong answer. Please read slowly and carefully."}],
 
     ['practice', Message, {consentRequired: false,
-                       html: ["div",
-                               ["p", "All right, that's it for practice! If you got any wrong, that's OK. Just be sure to read naturally but carefully, making sure you understand each word as you go. Press any key when you're ready to begin."]
+                       html: ["div", 
+                               ["p", "All right, that's it for practice! If you got any wrong, that's OK. Just be sure to read naturally but carefully, making sure you understand each word as you go. Click below when you're ready to begin."]
                             ]}],
 
     ['introSep', "Separator", {transfer: 4000, normalMessage: "Hands in place! Your first sentence of this block will start soon."}],
