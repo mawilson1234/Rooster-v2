@@ -1,5 +1,5 @@
 // Set counter manually
-var counterOverride = 0;
+var counterOverride = 1;
 
 // Show progress bar
 //var showProgressBar = true;
