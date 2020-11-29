@@ -1,8 +1,5 @@
 // Set counter manually
-var counterOverride = 6;
-
-// Show progress bar
-//var showProgressBar = true;
+var counterOverride = 7;
 
 // Main shuffleSequence definition
 var shuffleSequence = seq(
